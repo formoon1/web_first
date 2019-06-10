@@ -1,0 +1,95 @@
+.top{
+	height: 3rem;
+	background:  rgb(210, 33, 71);
+}
+
+.top_bod{
+	width: 90%;
+	margin: 0 auto;
+	height: 3rem;
+	/*border: 1px solid blue;*/
+}
+.top_bod1{
+	width: 28%;
+	height: 3rem;
+/*	background: gray;*/
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: top;
+	color: white;
+}
+
+.top_bod2{
+	width: 50%;
+	height: 3rem;
+	/*background: green;*/
+	display: inline-block;
+	vertical-align: top;
+	/*color: #dfbac2;
+	background: rgb(174,62,68) ;
+	border-radius: 0.3333rem;*/
+}
+.top_bod2 input{
+	color: #dfbac2;
+	background: rgb(174,62,68) ;
+	border-radius: 0.3333rem;
+	height: 2.1rem;
+	margin-top: 0.3rem;
+	border: 0;
+}
+.top_bod3{
+	width: 18%;
+	height: 3rem;
+/*	background: blue;*/
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+}
+.cen{
+	width: 60rem;
+	height: 10rem;
+	/*overflow: hidden;*/
+	animation-name: a;
+	animation-duration: 4s;
+	/*animation-direction: alternate;*/
+	animation-iteration-count: infinite;
+}
+.cen_img_big{
+	width: 19rem;
+	overflow: hidden;
+}
+.cen_img{
+	
+	width: 19rem;
+	margin: 0 auto;
+	height: 10rem;
+
+}
+@keyframes a{
+	0%{
+		margin-left: 0rem;
+	}
+	45%{
+		margin-left: -19rem;
+	}
+	100%{
+		margin-left: -38rem;
+	}
+}
+
+ul{
+	/*border: 1px solid red;*/
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	/*border: 1px solid blue;*/
+	display: inline-block;
+	width: 31%;
+	text-align: center;
+	margin-left: 3px;
+}
+
+.xia{
+	background: red;
+}
